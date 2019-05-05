@@ -1,0 +1,44 @@
+# Site
+name: "Bobofish Studio"
+title: "Bobofish Studio"
+description: "Bobofish Studio"
+meta_description: "Bobofish Studio"
+# logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+paginate: 12
+paginate_path: "post/:num"
+# baseurl: 'https://bobo.fish'
+email: 'contact@bobo.fish'
+google_analytics: 'UA-139562951-1'
+disqus: 'bobofish'
+
+# Authors
+authors:
+  jone:
+    name: Jone
+    display_name: Jone
+    gravatar: 0eb50f442ab21d27c593cb06a0bb3d98
+    email: i@jone.wang
+    web: http://jone.wang
+    twitter: https://twitter.com/JoneWang
+    description: "Game Programmer"
+
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+        
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Other
+markdown: kramdown
+highlighter: rouge
